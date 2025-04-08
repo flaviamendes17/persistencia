@@ -7,12 +7,12 @@ import DetalhesScreen from "./pages/Detalhes";
 const Stack = createNativeStackNavigator();
 
 export default function App() {
-    return (
-        <NavigationContainer>
-            <Stack.Navigator initialRouteName="Home">
-                <Stack.Screen name="Home" component={HomeScreen} />
-                <Stack.Screen name="Detalhes" component={DetalhesScreen} />
-            </Stack.Navigator>
-        </NavigationContainer>
-    );
+  return (
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="Home">
+        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="Detalhes" component={DetalhesScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
 }
